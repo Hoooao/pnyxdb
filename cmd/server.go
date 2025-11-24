@@ -37,6 +37,7 @@ type driverConstructor func(string) (consensus.Store, error)
 var fullSync *string
 var dumpFile *string
 var recoveryKeys *[]string
+var printPeerID *bool
 var storeDrivers map[string]driverConstructor
 
 func init() {
@@ -89,7 +90,11 @@ var serverCmd = &cobra.Command{
 		keyRing := getKeyRing()
 		check(keyRing.UnlockPrivate(getPassword()))
 
-		sk, err := crypto.UnmarshalEd25519PrivateKey(keyRing.GetPrivate())
+		priv := keyRing.GetPrivate()                     // 64 bytes
+		pub, _, err := keyRing.GetPublic(keyRing.Identity())
+		check(err)
+		buf := append(append(make([]byte, 0, 96), priv...), pub...)
+		sk, err := crypto.UnmarshalEd25519PrivateKey(buf)
 		check(err)
 
 		reporter := metrics.NewBandwidthCounter()
@@ -101,6 +106,14 @@ var serverCmd = &cobra.Command{
 			libp2p.BandwidthReporter(reporter),
 		)
 		check(err)
+		if *printPeerID {
+			fmt.Println(host.ID().Pretty())
+			_ = host.Close()
+			_ = store.Close()
+			cancel()
+			return
+		}
+
 		params := gossipsub.Defaults(host)
 		params.BootstrapAddrs = viper.GetStringSlice("p2p.peers")
 		rq := viper.GetInt("recoveryQuorum")
@@ -235,4 +248,7 @@ func init() {
 	dumpFile = serverCmd.Flags().StringP("dump", "d", ".dump.p", "file used to retrieve processus state")
 	recoveryKeys = serverCmd.Flags().StringSliceP(
 		"recover", "r", nil, "set of keys to recover at startup from random peers")
+	printPeerID = serverCmd.Flags().Bool(
+		"print-peer-id", false, "print libp2p peer ID suffix and exit",
+	)
 }
