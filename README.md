@@ -116,12 +116,43 @@ by downloading this program, you commit to comply with the license as stated in 
 
 
 
-go get github.com/libp2p/go-libp2p-pubsub@63398892ee6f463368b46057b04fee80f0ff8b93 \
-  github.com/libp2p/go-libp2p@2fac973565025e3cedccc1762f8f00cb45862dd0 \
-  github.com/libp2p/go-libp2p-crypto@50487e0f0b4842e9e657317e689fbb8209fab2dc \
-  github.com/libp2p/go-libp2p-host@933c9b69b75a029872fb408905b1ca4e52c78901 \
-  github.com/libp2p/go-libp2p-metrics@a10ff6e75dae3c868023867e8caa534a04bdc624 \
-  github.com/libp2p/go-libp2p-net@32f552f75f3bc27f13f3cfca25935401b78be6d4 \
-  github.com/libp2p/go-libp2p-peer@993d742bc29dcf4894b7730ba610fd78900be76c \
-  github.com/libp2p/go-libp2p-peerstore@3e0c5fae56f77cfe57f51cc97e23971f308e725a \
-  github.com/multiformats/go-multiaddr@2b4e098f3e0aa2c8bc960f0e4bdc3247efc3749c
+	github.com/libp2p/go-addr-util v0.0.0-20180912035003-2dc53609d9aa745f7bf5755bef6f54fb9ff77cd6
+	github.com/libp2p/go-buffer-pool v0.0.0-20180912035003-1d28ab5fdb424e5b3523d357553082e68df9b068
+	github.com/libp2p/go-conn-security v0.0.0-20180912035003-1e66c1f23a115ec242996eca42316dd67b38d32f
+	github.com/libp2p/go-conn-security-multistream v0.0.0-20180912035003-aa0d406ec5f5ddb0cea38393f5e65279e73a068a
+	github.com/libp2p/go-floodsub v0.0.0-20180912035003-63398892ee6f463368b46057b04fee80f0ff8b93
+	github.com/libp2p/go-flow-metrics v0.0.0-20180912035003-cc546389dcf06b4bcbf6b8594069588e5c8a1451
+	github.com/libp2p/go-libp2p v0.0.0-20180912035003-2fac973565025e3cedccc1762f8f00cb45862dd0
+	github.com/libp2p/go-libp2p-blankhost v0.0.0-20180912035003-222524f5926b9b68f0583e758de8d84dc9a86d8c
+	github.com/libp2p/go-libp2p-circuit v0.0.0-20180912035003-a4e6443180c9d2bf94fc90ced3ed5d22a93421fd
+	github.com/libp2p/go-libp2p-crypto v0.0.0-20180912035003-50487e0f0b4842e9e657317e689fbb8209fab2dc
+	github.com/libp2p/go-libp2p-host v0.0.0-20180912035003-933c9b69b75a029872fb408905b1ca4e52c78901
+	github.com/libp2p/go-libp2p-interface-connmgr v0.0.0-20180912035003-58520b932fe596c6b8cd986140904dd1fe845446
+	github.com/libp2p/go-libp2p-interface-pnet v0.0.0-20180912035003-3eda0a328422c06235501df5be481e4b51edc7cf
+	github.com/libp2p/go-libp2p-loggables v0.0.0-20180912035003-fc4c4dc5d90bcd55e0af5b5f744005519e070dc3
+	github.com/libp2p/go-libp2p-metrics v0.0.0-20180912035003-a10ff6e75dae3c868023867e8caa534a04bdc624
+	github.com/libp2p/go-libp2p-nat v0.0.0-20180912035003-fcc8db1a9963a3d489abbc632f2c0f404e4ff607
+	github.com/libp2p/go-libp2p-net v0.0.0-20180912035003-32f552f75f3bc27f13f3cfca25935401b78be6d4
+	github.com/libp2p/go-libp2p-peer v0.0.0-20180912035003-993d742bc29dcf4894b7730ba610fd78900be76c
+	github.com/libp2p/go-libp2p-peerstore v0.0.0-20180912035003-3e0c5fae56f77cfe57f51cc97e23971f308e725a
+	github.com/libp2p/go-libp2p-protocol v0.0.0-20180912035003-e34f0d7468b3519bf9bf4e43c1d028ce651eab51
+	github.com/libp2p/go-libp2p-secio v0.0.0-20180912035003-56b7d20cfbad648044ee74ae3bc64746800d1cff
+	github.com/libp2p/go-libp2p-swarm v0.0.0-20180912035003-c54db10406aa519d69784a1a87cef932a67732f5
+	github.com/libp2p/go-libp2p-transport v0.0.0-20180912035003-e261726854ee2b59deea0c81fcb79aa212dd469b
+	github.com/libp2p/go-libp2p-transport-upgrader v0.0.0-20180912035003-19570969af9e3089540265fef74c64638b984eed
+	github.com/libp2p/go-maddr-filter v0.0.0-20180912035003-57fd7e2ed649ba28b4f2c7bcab3a606e7cc4b12c
+	github.com/libp2p/go-msgio v0.0.0-20180912035003-fa984f54d57f20970aac9309a89a7ea40821f67c //gx 
+	github.com/libp2p/go-reuseport v0.0.0-20180912035003-dd0c37d7767bc38280bd9813145b65f8bd560629
+	github.com/libp2p/go-reuseport-transport v0.0.0-20180912035003-5cdb097c8035e75fc59d12f22509aeb700a272d0
+	github.com/libp2p/go-sockaddr v0.0.0-20180912035003-5c3ac7e71ec1941a0c2ed4271535d9427feb829c
+	github.com/libp2p/go-stream-muxer v0.0.0-20180912035003-2ba231669cdd8d310277307dec6ced95a190c495
+	github.com/libp2p/go-tcp-transport v0.0.0-20180912035003-d29539b26c5cc7a3e4f6388ef5de687dfdcb0bf2
+	github.com/libp2p/go-testutil v0.0.0-20180912035003-8f5bdfbba2a14e11e2fd56b9d0c9956fdcfd8880
+	github.com/libp2p/go-ws-transport v0.0.0-20180912035003-6c2d6a289a474cfccb5caa0703269a0da8ce3cd7
+
+  github.com/whyrusleeping/go-multiplex v0.0.0-20180912035003-c3dda5ad658cfdb3d23528f6c118dc3cfb1a708a
+  github.com/multiformats/go-multiaddr v0.0.0-20180912035003-2b4e098f3e0aa2c8bc960f0e4bdc3247efc3749c
+  github.com/multiformats/go-multistream v0.0.0-20180912035003-0e509f6b999d3be262c0702d25fe868c77de1565
+  github.com/multiformats/go-multihash v0.0.0-20180912035003-8be2a682ab9f254311de1375145a2f78a809b07d
+  github.com/multiformats/go-multiaddr-net v0.0.0-20180912035003-cba4f9fea8613343eb7ecc4ddadd8e7298a00c39
+  github.com/ipfs/go-log v0.0.0-20180912035003-14e95105cbafcda64fdc36197fe6a30b23c693dc

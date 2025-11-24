@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	floodsub "github.com/libp2p/go-pubsub"
+	floodsub "github.com/libp2p/go-floodsub"
 	host "github.com/libp2p/go-libp2p-host"
 	peer "github.com/libp2p/go-libp2p-peer"
 	peerstore "github.com/libp2p/go-libp2p-peerstore"
