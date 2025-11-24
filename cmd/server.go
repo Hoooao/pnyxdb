@@ -25,11 +25,11 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/technicolor-research/pnyxdb/consensus"
-	"github.com/technicolor-research/pnyxdb/consensus/bbc"
-	"github.com/technicolor-research/pnyxdb/network/gossipsub"
-	"github.com/technicolor-research/pnyxdb/server"
-	"github.com/technicolor-research/pnyxdb/storage/boltdb"
+	"github.com/Hoooao/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/consensus/bbc"
+	"github.com/Hoooao/pnyxdb/network/gossipsub"
+	"github.com/Hoooao/pnyxdb/server"
+	"github.com/Hoooao/pnyxdb/storage/boltdb"
 )
 
 type driverConstructor func(string) (consensus.Store, error)

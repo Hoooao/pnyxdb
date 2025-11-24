@@ -14,7 +14,7 @@ import (
 	"sync"
 
 	bolt "github.com/coreos/bbolt"
-	"github.com/technicolor-research/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/consensus"
 )
 
 var bucketName = []byte("pnyxdb")

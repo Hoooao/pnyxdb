@@ -7,7 +7,7 @@ import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import timestamp "github.com/golang/protobuf/ptypes/timestamp"
-import consensus "github.com/technicolor-research/pnyxdb/consensus"
+import consensus "github.com/Hoooao/pnyxdb/consensus"
 
 import (
 	context "golang.org/x/net/context"

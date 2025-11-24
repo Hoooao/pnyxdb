@@ -15,8 +15,8 @@ import (
 
 	"google.golang.org/grpc/status"
 
-	"github.com/technicolor-research/pnyxdb/api"
-	"github.com/technicolor-research/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/api"
+	"github.com/Hoooao/pnyxdb/consensus"
 )
 
 // Get gets the key from the endpoint.

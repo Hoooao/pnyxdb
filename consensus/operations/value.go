@@ -8,7 +8,7 @@
 
 package operations
 
-import "github.com/technicolor-research/pnyxdb/consensus/encoding"
+import "github.com/Hoooao/pnyxdb/consensus/encoding"
 
 // Value holds the data that shall be used by operations.
 // One value, and only one, shall be used per key on a given transaction.

@@ -15,7 +15,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/technicolor-research/pnyxdb/client"
+	"github.com/Hoooao/pnyxdb/client"
 )
 
 var addrSrv *string

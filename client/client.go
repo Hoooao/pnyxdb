@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/technicolor-research/pnyxdb/api"
+	"github.com/Hoooao/pnyxdb/api"
 
 	"github.com/chzyer/readline"
 	"google.golang.org/grpc"

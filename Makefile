@@ -1,4 +1,4 @@
-IMPORT_PATH=github.com/technicolor-research/pnyxdb
+IMPORT_PATH=github.com/Hoooao/pnyxdb
 
 protoc:
 	@protoc --go_out=. consensus/*.proto

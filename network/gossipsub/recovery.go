@@ -17,8 +17,8 @@ import (
 
 	net "github.com/libp2p/go-libp2p-net"
 	peer "github.com/libp2p/go-libp2p-peer"
-	"github.com/technicolor-research/pnyxdb/consensus"
-	"github.com/technicolor-research/pnyxdb/network/protocol"
+	"github.com/Hoooao/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/network/protocol"
 	"go.uber.org/zap"
 )
 

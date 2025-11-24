@@ -16,8 +16,8 @@ import (
 	"crypto/sha512"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/technicolor-research/pnyxdb/consensus"
-	"github.com/technicolor-research/pnyxdb/keyring"
+	"github.com/Hoooao/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/keyring"
 )
 
 type vetoEngine struct {

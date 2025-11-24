@@ -15,7 +15,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/require"
-	"github.com/technicolor-research/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/consensus"
 )
 
 const testKey = "teststream_network"

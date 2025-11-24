@@ -15,9 +15,9 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/technicolor-research/pnyxdb/api"
-	"github.com/technicolor-research/pnyxdb/consensus"
-	"github.com/technicolor-research/pnyxdb/consensus/encoding"
+	"github.com/Hoooao/pnyxdb/api"
+	"github.com/Hoooao/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/consensus/encoding"
 )
 
 // Server is the GRPC PnyxDB endpoint.

@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/technicolor-research/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/consensus"
 )
 
 var log2 = math.Log(2)

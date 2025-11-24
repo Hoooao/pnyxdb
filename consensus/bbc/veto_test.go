@@ -17,9 +17,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"github.com/technicolor-research/pnyxdb/consensus"
-	"github.com/technicolor-research/pnyxdb/network/redis"
-	"github.com/technicolor-research/pnyxdb/tests"
+	"github.com/Hoooao/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/network/redis"
+	"github.com/Hoooao/pnyxdb/tests"
 )
 
 func runVetoEngine(t *testing.T, choices []bool, proof *consensus.Proof, expected bool) {

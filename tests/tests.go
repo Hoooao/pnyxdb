@@ -18,7 +18,7 @@ import (
 
 	"github.com/awnumar/memguard"
 	"github.com/stretchr/testify/require"
-	"github.com/technicolor-research/pnyxdb/keyring"
+	"github.com/Hoooao/pnyxdb/keyring"
 )
 
 // GetTestKeyRings returns a number of keyrings that trust each other.

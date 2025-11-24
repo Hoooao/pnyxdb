@@ -12,7 +12,7 @@ package main
 import (
 	"os"
 
-	"github.com/technicolor-research/pnyxdb/cmd"
+	"github.com/Hoooao/pnyxdb/cmd"
 )
 
 func main() {

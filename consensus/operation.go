@@ -12,7 +12,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/technicolor-research/pnyxdb/consensus/operations"
+	"github.com/Hoooao/pnyxdb/consensus/operations"
 )
 
 // ParallelType specifies the various options available when specifying a parallelizable operation.

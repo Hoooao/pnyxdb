@@ -8,7 +8,7 @@
 
 package operations
 
-import "github.com/technicolor-research/pnyxdb/consensus/encoding"
+import "github.com/Hoooao/pnyxdb/consensus/encoding"
 
 func floatGeneric(input []byte, current *Value, add bool) error {
 	a := encoding.NewFloat()

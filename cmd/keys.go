@@ -18,7 +18,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/technicolor-research/pnyxdb/keyring"
+	"github.com/Hoooao/pnyxdb/keyring"
 )
 
 const strTrustLevel = "none,low,high,ultimate"

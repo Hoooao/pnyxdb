@@ -112,3 +112,16 @@ e7dc2197-1c65-4416-9fd2-10a92e0913e3
 ## License
 This project is licensed under the terms of BSD 3-clause Clear license.
 by downloading this program, you commit to comply with the license as stated in the LICENSE.md file.
+
+
+
+
+go get github.com/libp2p/go-libp2p-pubsub@63398892ee6f463368b46057b04fee80f0ff8b93 \
+  github.com/libp2p/go-libp2p@2fac973565025e3cedccc1762f8f00cb45862dd0 \
+  github.com/libp2p/go-libp2p-crypto@50487e0f0b4842e9e657317e689fbb8209fab2dc \
+  github.com/libp2p/go-libp2p-host@933c9b69b75a029872fb408905b1ca4e52c78901 \
+  github.com/libp2p/go-libp2p-metrics@a10ff6e75dae3c868023867e8caa534a04bdc624 \
+  github.com/libp2p/go-libp2p-net@32f552f75f3bc27f13f3cfca25935401b78be6d4 \
+  github.com/libp2p/go-libp2p-peer@993d742bc29dcf4894b7730ba610fd78900be76c \
+  github.com/libp2p/go-libp2p-peerstore@3e0c5fae56f77cfe57f51cc97e23971f308e725a \
+  github.com/multiformats/go-multiaddr@2b4e098f3e0aa2c8bc960f0e4bdc3247efc3749c

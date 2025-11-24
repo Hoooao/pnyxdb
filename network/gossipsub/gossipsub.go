@@ -18,13 +18,13 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	floodsub "github.com/libp2p/go-floodsub"
+	floodsub "github.com/libp2p/go-pubsub"
 	host "github.com/libp2p/go-libp2p-host"
 	peer "github.com/libp2p/go-libp2p-peer"
 	peerstore "github.com/libp2p/go-libp2p-peerstore"
 	multiaddr "github.com/multiformats/go-multiaddr"
-	"github.com/technicolor-research/pnyxdb/consensus"
-	"github.com/technicolor-research/pnyxdb/network/protocol"
+	"github.com/Hoooao/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/network/protocol"
 	"go.uber.org/zap"
 )
 

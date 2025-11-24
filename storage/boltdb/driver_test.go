@@ -16,7 +16,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/technicolor-research/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/consensus"
 )
 
 var ts *store

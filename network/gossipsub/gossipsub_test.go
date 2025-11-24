@@ -16,7 +16,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	libp2p "github.com/libp2p/go-libp2p"
 	"github.com/stretchr/testify/require"
-	"github.com/technicolor-research/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/consensus"
 )
 
 func TestGossipSub(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 
 	"github.com/bluele/gcache"
 	"github.com/golang/protobuf/proto"
-	"github.com/technicolor-research/pnyxdb/consensus/operations"
-	"github.com/technicolor-research/pnyxdb/keyring"
+	"github.com/Hoooao/pnyxdb/consensus/operations"
+	"github.com/Hoooao/pnyxdb/keyring"
 	"go.uber.org/zap"
 )
 

@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/technicolor-research/pnyxdb/api"
-	"github.com/technicolor-research/pnyxdb/consensus"
+	"github.com/Hoooao/pnyxdb/api"
+	"github.com/Hoooao/pnyxdb/consensus"
 	"google.golang.org/grpc/status"
 )
 
