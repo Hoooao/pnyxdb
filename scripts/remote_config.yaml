@@ -1,0 +1,8 @@
+replica:  
+  ips: 
+    - 10.138.0.6
+    - 10.182.0.4
+    - 10.142.0.3
+    - 10.150.0.3
+runtimeSeconds: 60
+sendRate: 200
